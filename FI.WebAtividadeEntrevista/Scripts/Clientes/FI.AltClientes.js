@@ -42,7 +42,7 @@ $(document).ready(function () {
             function (r) {
                 ModalDialog("Sucesso!", r)
                 $("#formCadastro")[0].reset();                                
-                window.location.href = urlRetorno;
+                //window.location.href = urlRetorno;
             }
         });
     })

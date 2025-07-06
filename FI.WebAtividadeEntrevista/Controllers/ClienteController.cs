@@ -175,6 +175,7 @@ namespace WebAtividadeEntrevista.Controllers
 
                 }
 
+                Session[SessionKey] = new List<BeneficiarioModel>();
                 return Json("Cadastro alterado com sucesso");
             }
         }
