@@ -98,7 +98,7 @@ namespace WebAtividadeEntrevista.Controllers
                 }
 
 
-
+                Session[SessionKey] = new List<BeneficiarioModel>();
                 return Json("Cadastro efetuado com sucesso");
             }
         }
